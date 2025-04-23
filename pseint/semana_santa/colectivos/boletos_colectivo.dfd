@@ -1,0 +1,221 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+12
+inicio_comun
+1
+0
+9
+fin_comun
+1
+0
+6
+2
+17
+inicio_estudiante
+1
+0
+14
+fin_estudiante
+1
+0
+6
+2
+17
+inicio_trabajador
+1
+0
+14
+fin_trabajador
+1
+0
+6
+3
+10
+cant_comun
+1
+0
+15
+cant_estudiante
+1
+0
+15
+cant_trabajador
+1
+0
+6
+3
+11
+costo_comun
+1
+0
+18
+recaudo_estudiante
+1
+0
+18
+recaudo_trabajador
+1
+0
+6
+1
+13
+recaudo_total
+1
+0
+4
+1
+50
+"Ingrese la numeracion inicial del servicio común"
+5
+1
+12
+inicio_comun
+4
+1
+48
+"Ingrese la numeración final del servicio común"
+5
+1
+9
+fin_comun
+7
+0
+1
+25
+fin_comun >= inicio_comun
+4
+1
+64
+"Error: numeración final de servicio común menor que la inicial"
+13
+4
+1
+60
+"Ingrrese la numeración inicial del servicio de estudiantes"
+5
+1
+17
+inicio_estudiante
+4
+1
+57
+"Ingrese la numeración final del servicio de estudiantes"
+5
+1
+14
+fin_estudiante
+7
+0
+1
+33
+fin_estudiante >inicio_estudiante
+4
+1
+66
+"Error: numeración final de los estudiantes menor que la inicial."
+13
+4
+1
+59
+"Ingrese la numeración inicial del servicio de trabajador:"
+5
+1
+17
+inicio_trabajador
+4
+1
+57
+"Ingrese la numeración final del servicio del trabajador"
+5
+1
+14
+fin_trabajador
+7
+0
+1
+34
+fin_trabajador > inicio_trabajador
+4
+1
+62
+"Error: numeración final del tarbajador menor que la inincial"
+13
+4
+1
+35
+"Ingrese el costo del boleto común"
+5
+1
+11
+costo_comun
+7
+0
+1
+15
+costo_comun > 0
+4
+1
+42
+"Error: el costo debe ser mayor que cero."
+13
+6
+3
+10
+cant_comun
+28
+fin_comun - inicio_comun + 1
+15
+cant_estudiante
+38
+fin_estudiante - inicio_estudiante + 1
+15
+cant_trabajador
+38
+fin_trabajador - inicio_trabajador + 1
+6
+3
+13
+recaudo_comun
+24
+cant_comun * costo_comun
+18
+recaudo_estudiante
+37
+cant_estudiante * (costo_comun * 0.5)
+18
+recaudo_trabajador
+37
+cant_trabajador * (costo_comun * 0.6)
+6
+1
+13
+recaudo_total
+56
+recaudo_comun + recaudo_estudiante  + recaudo_trabajador
+4
+1
+50
+"Cantidad de boletos servicio comun: ", cant_comun
+4
+1
+55
+"Cantidad de boletos de estudiantes: ", cant_estudiante
+4
+1
+51
+"Cantidad de boletos trabajador: ", cant_trabajador
+4
+1
+38
+"Recaudacion total:  $", recaudo_total
+13
+13
+13
+13
+1

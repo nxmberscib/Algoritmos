@@ -1,0 +1,25 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+Ganancia
+9
+100000000
+11
+valor_venta
+15
+Ganancia / 0.15
+14
+valor_original
+22
+valor_venta - Ganancia
+4
+1
+108
+'Valor de venta de la propiedad: ', valor_venta, ' $, valor original de la propiedad: ', valor_original, '$'
+1
