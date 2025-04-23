@@ -1,0 +1,160 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+16
+metros_cuadrados
+3
+0.0
+18
+galones_necesarios
+3
+0.0
+17
+galones_comprados
+3
+0.0
+6
+3
+5
+total
+3
+0.0
+8
+sobrante
+3
+0.0
+15
+metros_pintados
+3
+0.0
+6
+1
+18
+descuento_aplicado
+1
+0
+4
+1
+48
+'Ingrese el area de la casa en metros cuadrados'
+5
+1
+16
+metros_cuadrados
+7
+0
+1
+21
+metros_cuadrados < 10
+7
+0
+1
+21
+metros_cuadrados > 50
+6
+2
+5
+total
+22
+metros_cuadrados*50000
+18
+descuento_aplicado
+1
+0
+13
+6
+2
+5
+total
+27
+metros_cuadrados*50000*0.80
+18
+descuento_aplicado
+1
+1
+13
+6
+1
+18
+galones_necesarios
+21
+metros_cuadrados / 35
+7
+0
+1
+71
+galones_necesarios != (galones_necesarios - (galones_necesarios mod 1))
+6
+1
+17
+galones_comprados
+18
+galones_necesarios
+13
+6
+1
+17
+galones_comprados
+53
+(galones_necesarios - (galones_necesarios mod 1) )+ 1
+13
+6
+2
+15
+metros_pintados
+22
+galones_comprados * 35
+8
+sobrante
+32
+metros_pintados-metros_cuadrados
+4
+1
+26
+'Total a cobrar: $', total
+7
+0
+1
+22
+descuento_aplicado = 1
+4
+1
+24
+'No se aplico descuento'
+13
+4
+1
+31
+'Se aplico un 20% de descuento'
+13
+4
+1
+51
+'Galones de pintura comprados: ', galones_comprados
+7
+0
+1
+10
+sobrante>0
+4
+1
+18
+'No sobro pintura'
+13
+4
+1
+63
+'Sobro pintura suficiente para ', sobrante, ' metros cuadrados'
+13
+13
+4
+1
+59
+'Error: el area ingresada es demasiado pequeña para pintar'
+13
+1
