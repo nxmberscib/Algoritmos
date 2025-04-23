@@ -1,0 +1,191 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+13
+valor_inicial
+1
+0
+13
+valor_vendido
+1
+0
+6
+2
+14
+pago_empleados
+1
+0
+17
+pago_por_empleado
+1
+0
+6
+1
+13
+ganancia_neta
+1
+0
+6
+1
+15
+Resultado_final
+1
+0
+6
+1
+26
+porcentaje_Resultado_Final
+1
+0
+6
+1
+18
+cantidad_empleados
+1
+0
+4
+1
+76
+"Ingrese el valor total del licor con el que contaba al inicio (en pesos): "
+5
+1
+13
+valor_inicial
+7
+0
+1
+17
+valor_inicial < 0
+4
+1
+70
+"Ingrese el valor total del licor vendido durante la noche (en pesos)"
+5
+1
+13
+valor_vendido
+7
+0
+1
+15
+valor_vendido<0
+4
+1
+60
+"Ingrese la cantidad de empleados de la discoteda esa noche"
+5
+1
+18
+cantidad_empleados
+7
+0
+1
+21
+cantidad_empleados<=0
+4
+1
+36
+"Cuanto se le paga a cada empleado?"
+5
+1
+17
+pago_por_empleado
+7
+0
+1
+20
+pago_por_empleado<=0
+6
+2
+14
+pago_empleados
+35
+cantidad_empleados * pago_empleados
+13
+ganancia_neta
+30
+valor_vendido - pago_empleados
+7
+0
+1
+29
+ganancia_neta > valor_inicial
+6
+2
+15
+Resultado_final
+29
+valor_inicial - ganancia_neta
+26
+porcentaje_Resultado_Final
+37
+(Resultado_final/valor_inicial) * 100
+4
+1
+101
+'No hubo ganancias. Perdida de: ', Resultado_final, ', perdida de: ', porcentaje_Resultado_Final, '%'
+7
+0
+1
+31
+porcentaje_Resultado_Final > 50
+4
+1
+67
+'Las perdidas fueron menores a 50%, no se debe cerrar la discoteca'
+13
+4
+1
+71
+'Las perdidas superaron el 50%, el dueño debe debe cerrar la discoteca'
+13
+13
+6
+2
+15
+Resultado_final
+29
+ganancia_neta - valor_inicial
+26
+porcentaje_Resultado_Final
+37
+(resultado_final/valor_inicial) * 100
+4
+1
+42
+"Se obtuvo ganancia de: ", Resultado_final
+4
+1
+59
+'Porcentaje de ganancia: ', porcentaje_Resultado_Final, '%'
+13
+13
+4
+1
+46
+'Error: se les debe pagar, no trabajan gratis'
+13
+13
+4
+1
+44
+"error: por lo menos debe haber un empleado"
+13
+13
+4
+1
+47
+"Error: no se puede ingresar valores negativos"
+13
+13
+4
+1
+48
+"error: no se pueden ingresar valores negativos"
+13
+1
