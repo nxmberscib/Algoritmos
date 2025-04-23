@@ -1,0 +1,200 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+10
+produccion
+1
+0
+14
+cantidad_cajas
+1
+0
+12
+costoU_cajas
+3
+0.0
+6
+3
+8
+CT_cajas
+3
+0.0
+9
+CEXToalla
+3
+0.0
+12
+costo_toalla
+3
+0.0
+6
+3
+8
+Pvtoalla
+3
+0.0
+6
+VentaT
+3
+0.0
+8
+ganancia
+3
+0.0
+6
+1
+10
+proyeccion
+3
+0.0
+4
+1
+55
+'ingrese la cantidad de toallas producidas en el dia: '
+5
+1
+10
+produccion
+7
+0
+1
+16
+produccion >= 10
+4
+1
+45
+'Error: Se debe producir al menos 10 toallas'
+13
+6
+1
+14
+cantidad_cajas
+13
+produccion/12
+4
+1
+30
+'Ingrese el costo de una caja'
+5
+1
+12
+costoU_cajas
+7
+0
+1
+16
+costoU_cajas>100
+4
+1
+53
+'Error: El costo de una caja debe ser al menos $100.'
+13
+6
+2
+8
+CT_cajas
+27
+costoU_cajas*cantidad_cajas
+9
+CEXtoalla
+15
+costoU_cajas/12
+4
+1
+48
+'Ingrese cual es el valor de hacer una toalla: '
+5
+1
+12
+costo_toalla
+7
+0
+1
+19
+costo_toalla >= 500
+4
+1
+63
+'Error: El costo de producir una toalla debe ser al menos $500'
+13
+6
+2
+9
+CT_toalla
+24
+costo_toalla + CEXtoalla
+13
+CT_produccion
+22
+CT_toalla * produccion
+4
+1
+43
+'ingrese el precio de venta de una toalla:'
+5
+1
+8
+Pvtoalla
+7
+0
+1
+16
+Pvtoalla >= 1000
+4
+1
+54
+'Error: El costo de produccion debe ser al menos 500$'
+13
+6
+2
+6
+VentaT
+19
+Pvtoalla*produccion
+8
+ganancia
+20
+VentaT-CT_produccion
+7
+0
+1
+13
+ganancia != 0
+4
+1
+52
+'Error: No se puede proyectar con una ganancia de 0'
+13
+6
+1
+10
+proyeccion
+29
+(2000000*produccion)/ganancia
+4
+1
+40
+'El valor total de cajas es: ', CT_cajas
+4
+1
+50
+'El valor total en produccion es: ', CT_produccion
+4
+1
+32
+'La ganancia fue de: ', ganancia
+4
+1
+103
+'La cantidad de toallas que deben venderse para obtener una ganancia de $2.000.000 es de: ', proyeccion
+13
+13
+13
+13
+13
+1
