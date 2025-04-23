@@ -1,0 +1,162 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+altura
+3
+0.0
+7
+anchura
+3
+0.0
+4
+1
+33
+'Ingrese la dimension Z (altura)'
+5
+1
+6
+altura
+7
+0
+1
+11
+altura <= 0
+4
+1
+34
+'Ingrese la dimension N (anchura)'
+5
+1
+7
+anchura
+7
+0
+1
+12
+anchura <= 0
+4
+1
+39
+'Ingrese el valor por litro de pegante'
+5
+1
+13
+valor_pegante
+7
+0
+1
+18
+valor_pegante <= 0
+4
+1
+39
+'Ingrese el valor por litro de pintura'
+5
+1
+13
+valor_pintura
+7
+0
+1
+18
+valor_pintura <= 0
+4
+1
+43
+'Ingrese el precio de venta de la puerta: '
+5
+1
+12
+precio_venta
+7
+0
+1
+17
+precio_venta <= 0
+6
+3
+4
+area
+14
+altura*anchura
+13
+pegante_litro
+8
+area*0.5
+13
+pintura_litro
+8
+area*1.5
+6
+3
+17
+inversion_pegante
+29
+pegante_litro * valor_pegante
+17
+inversion_pintura
+29
+pintura_litro * valor_pintura
+15
+inversion_total
+37
+inversion_pegante + inversion_pintura
+6
+1
+8
+ganancia
+28
+precio_venta-inversion_total
+4
+1
+47
+'Litros de pegante requeridos: ', pegante_litro
+4
+1
+47
+'Litros de pintura requeridos: ', pintura_litro
+4
+1
+36
+'Cuanto invirtio: ', inversion_total
+4
+1
+32
+'Su ganancia fue de: ', ganancia
+13
+4
+1
+51
+'Error: el precio de venta debe ser mayor que cero'
+13
+13
+4
+1
+56
+'Error: el valor de la pintura debe ser mayor que cero.'
+13
+13
+4
+1
+54
+'Error: el valor del pegante debe ser mayor que cero.'
+13
+13
+4
+1
+44
+'Error: la anchura debe ser mayor que cero.'
+13
+13
+4
+1
+43
+'Error: la altura debe ser mayor que cero.'
+13
+1
