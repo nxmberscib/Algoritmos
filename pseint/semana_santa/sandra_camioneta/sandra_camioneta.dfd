@@ -1,0 +1,163 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+8
+costo_km
+1
+0
+15
+valor_tanqueada
+1
+0
+16
+gasolina_inicial
+1
+0
+6
+3
+14
+gasolina_total
+1
+0
+15
+distancia_total
+1
+0
+10
+tanqueadas
+1
+0
+6
+2
+11
+costo_total
+1
+0
+15
+dinero_faltante
+1
+0
+6
+3
+15
+distancia_total
+3
+840
+8
+costo_km
+4
+5000
+11
+costo_total
+26
+distancia_total * costo_km
+4
+1
+52
+'Ingrese la cantidad de gasolina inicial (en pesos)'
+5
+1
+16
+gasolina_inicial
+7
+0
+1
+24
+gasolina_inicial < 10000
+4
+1
+56
+'Ingrese la cantidad de tanquedas que hace el recorrido'
+5
+1
+10
+tanqueadas
+7
+0
+1
+33
+tanqueadas < 0 or tanqueadas > 50
+4
+1
+50
+'Cuanto dinero pone en cada tanqueada (en pesos)?'
+5
+1
+15
+valor_tanqueada
+7
+0
+1
+23
+valor_tanqueada < 10000
+6
+1
+14
+gasolina_total
+47
+gasolina_inicial + (tanqueadas*valor_tanqueada)
+4
+1
+45
+'Gasolina total disponible: ', gasolina_total
+4
+1
+41
+'Costo estimado del viaje: ', costo_total
+7
+0
+1
+29
+gasolina_total >= costo_total
+6
+1
+15
+dinero_faltante
+28
+costo_total - gasolina_total
+4
+1
+27
+'No le alcanza la gasolina'
+4
+1
+59
+'Le faltan: $', dinero_faltante, ' para completar el viaje'
+4
+1
+48
+'Gasto total esperado del viaje: $', costo_total
+13
+4
+1
+47
+'Le alcanza la gasolina para el viaje completo'
+4
+1
+39
+'Gasto total del viaje: $', costo_total
+13
+13
+4
+1
+47
+'Error: no se puede ingresar un valor tan bajo'
+13
+13
+4
+1
+49
+'Error el valor ingresado es muy alto o muy bajo'
+13
+13
+4
+1
+40
+'No se puede ingresar un valor tan bajo'
+13
+1
