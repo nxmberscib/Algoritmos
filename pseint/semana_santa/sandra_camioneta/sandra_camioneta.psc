@@ -1,6 +1,6 @@
 Algoritmo Ejercicio3Sandra
 	Definir costo_km, valor_tanqueada, gasolina_inicial, gasolina_total, distancia_total, tanqueadas, costo_total, dinero_faltante Como Entero
-	//Segun investigue la distancia entre Bogotá y medellín es de 420km por ende si es ida y vuelta seria 840km//
+	//Segun investigue la distancia entre BogotÃ¡ y medellÃ­n es de 420km por ende si es ida y vuelta seria 840km//
 	distancia_total <- 840;
 	costo_km <- 5000;
 	costo_total <- distancia_total * costo_km;
@@ -11,10 +11,10 @@ Algoritmo Ejercicio3Sandra
 	sino
 		Mostrar "ingrese la cantidad de tanqueadas que hace en el recorrido";
 		Leer tanqueadas;
-		Si tanqueadas < 0 o tanqueadas > 50 Entonces
+		Si tanqueadas < 0 o tanqueadas > 12 Entonces
 			Mostrar "error el valor ingresado es muy bajo o muy alto";
 		SiNo
-			Mostrar "¿Cuánto dinero pone en cada tanqueada (en pesos)?";
+			Mostrar "Â¿CuÃ¡nto dinero pone en cada tanqueada (en pesos)?";
 			Leer valor_tanqueada;
 			Si valor_tanqueada <10000  Entonces
 				Mostrar "No se puede ingresar un valor tan bajo";
